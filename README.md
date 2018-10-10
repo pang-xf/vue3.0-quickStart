@@ -1,26 +1,26 @@
-# demo1
+# vue3.0 QuickStart  开箱即用的3.0模板
 
-## Project setup
+
+## 使用方法
+
 ```
-npm install
+npm i 
 ```
 
-### Compiles and hot-reloads for development
+>注：vue-cli 3.0版本不要使用cnpm  会造成无法热更新
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+## 打包
+
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+- [x] css预处理器less
+- [x] 封装axios
+- [x] vue.config.js配置
+- [x] vuex
+- [x] router
