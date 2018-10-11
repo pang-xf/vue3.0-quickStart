@@ -1,6 +1,6 @@
 <template>
   <div class='herox'>
-    hello-world
+    hello-worl
   </div>
 </template>
 <script>
@@ -29,7 +29,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
+  font-size: 90px;
   color: #000;
 }
 </style>

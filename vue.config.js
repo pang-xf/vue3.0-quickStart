@@ -2,7 +2,7 @@ const path = require('path');
 module.exports = {
   // 基本路径
   baseUrl: process.env.NODE_ENV === 'production'
-    ? '//your_production_url'
+    ? '/' //your_production_url
     : '/',
   // 输出文件目录
   outputDir: 'dist',
@@ -34,11 +34,13 @@ productionSourceMap: false,
 // css相关配置
 css: {
   // 是否使用css分离插件 ExtractTextPlugin
-  extract: true,
+  extract: false, //false为开启css热更新 true为关闭 打包时置为true即可
   // 开启 CSS source maps?
   sourceMap: false,
   // css预设器配置项
-  loaderOptions: {},
+  loaderOptions: {
+
+  },
   // 启用 CSS modules for all css / pre-processor files.
   modules: false
 },
@@ -47,6 +49,7 @@ parallel: require('os').cpus().length > 1,
 // PWA 插件相关配置
 // see https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa
 pwa: {},
+runtimeCompiler:true,
 // webpack-dev-server 相关配置
 devServer: {
   open: true, //配置自动启动浏览器

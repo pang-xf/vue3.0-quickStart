@@ -20,7 +20,6 @@
     "@vue/cli-plugin-babel": "^3.0.4",
     "@vue/cli-plugin-eslint": "^3.0.4",
     "@vue/cli-service": "^3.0.4",
-    "vue-cli-plugin-axios": "0.0.4",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
