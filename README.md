@@ -24,3 +24,4 @@ npm run build
 - [x] vue.config.js配置
 - [x] vuex
 - [x] router
+- [x] normalize.css
